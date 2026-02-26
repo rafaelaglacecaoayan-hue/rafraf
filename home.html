@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Home | Rosales National High School</title>
+</head>
+<body>
+    <nav>
+        <a href="home.html" class="logo" style="display: flex; align-items: center; gap: 15px; text-decoration: none;">
+            <img src="logo.jpg" alt="RNHS Logo" style="height: 100px; width: auto; object-fit: contain;">
+            <span style="color: white; font-family: 'Orbitron'; font-size: 2rem;">RNHS</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="strand.html">Strands</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mission-vision.html">Mission & Vision</a></li>
+            <li><a href="index.html" style="color: #ff4d4d; font-weight: bold;">Log-out</a></li>
+        </ul>
+    </nav>
+
+    <header style="height: 60vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('jh.jpg'); background-size: cover; background-position: center;">
+        <h1 style="font-size: 3.5rem; font-family: 'Orbitron'; margin-bottom: 15px;">ROSALES NATIONAL <span style="color:var(--primary)">HIGH SCHOOL</span></h1>
+        <p style="color: #aaa; max-width: 700px; font-size: 1.1rem;">A beacon of excellence in Pangasinan, nurturing the intellectual and moral growth of our students.</p>
+    </header>
+
+    <section class="container">
+        <h2 style="font-family: 'Orbitron'; color: var(--primary); margin-top: 60px; margin-bottom: 40px; text-align: center; font-size: 2.5rem;">Our Campus</h2>
+        <div class="grid">
+            <div class="card"><img src="library.jpg" class="card-img"><div class="card-content"><h3>Library</h3></div></div>
+            <div class="card"><img src="rnhs gymnasium.jpg" class="card-img"><div class="card-content"><h3>Gymnasium</h3></div></div>
+            <div class="card"><img src="stemb.jpg" class="card-img"><div class="card-content"><h3>STEM Building</h3></div></div>
+        </div>
+
+        <div id="resumeSection" style="display: none; margin-top: 50px;">
+            <div class="resume-card">
+                <button class="btn-back" onclick="hideResume()">← BACK TO TOP</button>
+                
+                <div class="resume-header-top">
+                    <div>
+                        <h3 style="margin:0;">Rafaela Glace G. Caoayan</h3>
+                        <p style="color: #555; font-size: 0.9rem; line-height: 1.4; margin-top: 10px;">
+                            Brgy. Carmen East, Zone-1, Rosales, Pangasinan<br>
+                            <strong>Phone:</strong> 09050683903<br>
+                            <strong>Email:</strong> rafaelacaoayan.email@gmail.com
+                        </p>
+                    </div>
+                    <img src="mypic.jpg" alt="Profile" class="resume-pic">
+                </div>
+
+                <div class="resume-section">
+                    <h4>Professional Objective</h4>
+                    <p>To gain practical experience as an Encoder Intern where I can apply my knowledge, improve my data management skills, and contribute to the efficient operation of the office while learning valuable workplace skills.</p>
+                </div>
+
+                <div class="resume-section">
+                    <h4>Personal Information</h4>
+                    <table class="resume-table">
+                        <tr><th>Date of Birth</th><td>January 11, 2008</td></tr>
+                        <tr><th>Age</th><td>17 Years Old</td></tr>
+                        <tr><th>Gender</th><td>Female</td></tr>
+                        <tr><th>Nationality</th><td>Filipino</td></tr>
+                        <tr><th>Civil Status</th><td>Single</td></tr>
+                    </table>
+                </div>
+
+                <div class="resume-section">
+                    <h4>Educational Background</h4>
+                    <table class="resume-table">
+                        <tr>
+                            <th>Senior High School</th>
+                            <td>Technical Vocational Livelihood (TVL)<br>Rosales National High School | 2024 - 2025</td>
+                        </tr>
+                        <tr>
+                            <th>Junior High School</th>
+                            <td>Robert Memorial High School | 2022 - 2023</td>
+                        </tr>
+                        <tr>
+                            <th>Elementary</th>
+                            <td>Robert Memorial | 2019 - 2020</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="resume-section">
+                    <h4>Work Experience</h4>
+                    <table class="resume-table">
+                        <tr>
+                            <th style="vertical-align: top;">IBM – Internship (2025)<br><span style="font-weight: normal; font-size: 12px;">Position: Encoder</span></th>
+                            <td>
+                                <ul style="margin:0; padding-left: 20px;">
+                                    <li>Assisted in entering and updating office records accurately.</li>
+                                    <li>Organized documents and maintained data files for easy access.</li>
+                                    <li>Checked information for accuracy before inputting into the system.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="resume-section">
+                    <h4>Character References</h4>
+                    <div style="display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-size: 14px; margin-top: 10px;">
+                        <div><strong>Hon. Jasmine Gamboa</strong><br>Barangay Captain</div>
+                        <div><strong>Hon. Permin Bautista</strong><br>Barangay Kagawad</div>
+                        <div><strong>Hon. Persi Cortes</strong><br>Barangay Kagawad</div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 30px; border-top: 1px solid #ddd; padding-top: 20px; font-size: 12px; color: #666;">
+                    <p>I hereby declare that the information provided is true and accurate. Any false statements may disqualify me from employment.</p>
+                    <div style="margin-top: 15px; font-weight: bold; color: #000;">
+                        RAFAELA GLACE G. CAOAYAN<br>
+                        <span style="font-weight: normal; font-size: 11px;">Applicant Signature</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function showResume() {
+            var section = document.getElementById("resumeSection");
+            section.style.display = "block";
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+        function hideResume() {
+            var section = document.getElementById("resumeSection");
+            section.style.display = "none";
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer style="text-align: center; padding: 30px; border-top: 1px solid #333; margin-top: 50px;">
+        <p>&copy; 2026 Rosales National High School | All rights reserved</p>
+        <p>Developed by: 
+            <span onclick="showResume()" style="color: var(--primary); cursor: pointer; font-weight: bold; text-decoration: underline;">
+                Rafaela Glace G. Caoayan
+            </span>
+        </p>
+    </footer>
+</body>
+</html>
